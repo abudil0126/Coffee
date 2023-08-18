@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    src: url(./fonts/HelveticaNeue-MediumExt.woff2);
+    font-family: "Helvetica Neue";
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100hv;
+}
+
+.wrapper {
+    width: 1440px;
+    height: 1080px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    width: 1440px;
+    height: 44px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.title h4 {
+    color: #111;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.title span {
+    color: #111;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.title a {
+    color: black;
+}
+
+.ads {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1344px;
+    height: 977px;
+    gap: 48px;
+}
+
+.ads img {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    width: 1008px;
+    height: 229px;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.info h4 {
+    color: #111;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.info h1 {
+    color: #111;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.info p{
+    color: #111;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.info span {
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.info a{
+    color: #FFF;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: #111;
+    padding: 7.5px 22.078px 7.5px 21.5px;
+}
